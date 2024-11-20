@@ -111,7 +111,7 @@ def cross_validate_model(model, X, y):
 # Main script execution
 if __name__ == "__main__":
     # Load and preprocess data
-    filepath = 'C:\\Users\\Zawiyar Manzil\\Downloads\\python script\\bank-full.csv'
+    filepath = 'your filepath'
     bank_data = load_data(filepath)
     numerical_columns = ['age', 'balance', 'day', 'duration', 'campaign', 'pdays', 'previous']
     bank_data = scale_data(bank_data, numerical_columns)
